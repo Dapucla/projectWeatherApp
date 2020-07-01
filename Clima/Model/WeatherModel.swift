@@ -2,8 +2,8 @@
 //  WeatherModel.swift
 //  Clima
 //
-//  Created by Даниил Алексеев on 27.06.2020.
-//  Copyright © 2020 App Brewery. All rights reserved.
+//  Created by Angela Yu on 03/09/2019.
+//  Copyright © 2019 App Brewery. All rights reserved.
 //
 
 import Foundation
@@ -16,7 +16,6 @@ struct WeatherModel {
     var temperatureString: String {
         return String(format: "%.1f", temperature)
     }
-    
     
     var conditionName: String {
         switch conditionId {
@@ -40,5 +39,3 @@ struct WeatherModel {
     }
     
 }
-
-
